@@ -1,2 +1,4 @@
 name: Dr. Emily Wisnioski
 markdown: kramdown
+
+theme: jekyll-theme-slate
