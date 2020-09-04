@@ -1,10 +1,136 @@
----
-layout: default
-title: Dr. Emily Wisnioski
----
-<div class="content-text">
-	<h1>Dr. Emily Wisnioski</h1>
-	<p>I am currently an <a href="https://astro3d.org.au/">ASTRO-3D Fellow</a> hosted at the Australian National University in Canberra, Australia. 
-		I study the life-cycle of galaxies at the peak epoch of mass formation. A focus of my research is to make evolutionary connections across cosmic time.</p>
-	<p>I am always interested in connecting with new undergrad, Masters, and PhD students so please contact me if you are interested in galaxy evolution or in projects <a href="https://rsaa.anu.edu.au/people/academics/dr-emily-wisnioski">I have advertised at ANU.</a></p>
-</div><!-- /.content-text -->
+<!DOCTYPE html>
+<html lang="en" class="">
+<head>
+	<title>E. Wisnioski</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- CSS only -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<!-- JS, Popper.js, and jQuery -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="js/jquery-3.5.1.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js" integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J" crossorigin="anonymous"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<!-- jquery server file -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+	<!-- extra css file -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/extra.css">
+	<!-- Custom Javascript/JQuery -->
+	<script>
+	    $(document).ready(function(){
+		    $('.navbar-nav li').click(function(){
+		        $(this).addClass('active');
+		        $(this).siblings().removeClass('active');
+
+			    });
+		    $('#nav-ul>li>a').on('click', function(){
+				$('.navbar-collapse').collapse('hide');
+			});
+		});	
+    	var shiftWindow = function() { scrollBy(0, -50) };
+	    window.addEventListener("hashchange", shiftWindow);
+	    function load() { if (window.location.hash) shiftWindow(); }
+	</script>
+</head>
+<body class="bg-light" id="body">
+	<!-- Collapsable Navbar -->
+	<nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark" id="top-bar">
+		<!-- <div class="container"> -->
+			<a class="navbar-brand mb-0 h1 ml-auto text-white" name="main-pill"> Dr. E. Wisnioski</a>
+			<button class="navbar-toggler mr-auto" type="button" data-toggle="collapse" data-target="#NavbarContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+			<div class="collapse navbar-collapse text-center justify-content-end " id="NavbarContent">
+				<ul class="navbar-nav" id="nav-ul"  role="tablist">
+					<li class="nav-item"><a class="nav-link" href="#me">About Me</a></li>
+					<li class="nav-item"><a class="nav-link" href="#research">Research</a></li>
+					<li class="nav-item"><a class="nav-link" href="https://ui.adsabs.harvard.edu/search/q=%20author%3A%22wisnioski%2Ce%22&sort=date%20desc%2C%20bibcode%20desc&p_=0">Publications</a></li>
+					<li class="nav-item"><a class="nav-link" href="doc/cv_wis.pdf">CV</a></li>
+				</ul>
+				<div class="text-center text-white pt-5 d-md-none">
+		      		<h6>Get in touch:</h6>
+		      		<h5> Emily.Wisnioski (at) anu.edu.au </h5>
+	      		</div>
+			</div>
+		<!-- </div> -->
+	</nav>
+	<!-- End Collapsable Navbar -->
+	<!-- Content -->
+	<div class="row">			
+			<!-- Main -->
+			<main class="mx-sm-auto px-0 d-flex" id="main-content">
+				<header> <img src="img/STA_1637-STE_1641.jpg" class="img-fluid">
+				</header>
+				<section class="section text-justify" id="me">
+					<div class="container">
+						<h3 class="section-header"> ABOUT ME </h3>
+						<div class="row">
+							<div class="col-md-7 mx-auto">
+								<p> I'm a ASTRO-3D Fellow at the Research School for Astronomy and Astrophysics at the Australian National University in Canberra, Australia. I received my PhD from Swinburne University of Technology in 2012. My PhD advisor was Karl Glazebrook. 
+								</p>
+								<p>
+								My research endeavours to discover new evolutionary trends for galaxies over 80% of the lifetime of our Universe by bringing together results from new data as well as ongoing and past dynamics surveys to connect to galaxies such as our Milky Way that we can study in great detail. By uniting kinematic data across epochs (e.g. Hector/SAMI, MAGPI, KMOS<sup>3D</sup>) I aim to define and measure the processes that maintain star-forming galaxies in a chemical, morphological and dynamical equilibrium state.
+								</p>
+								<p>
+								In parallel my other projects (e.g. K3LARS) push out comprehensive multi-wavelength studies to early times in order to fully characterise galaxies just 1-2 Gyrs after the Big Bang. This research connects to ‘first galaxy’ observations and simulations being conducted across Australia and with an eye towards taking full advantage of future facilities (e.g. JWST, GMT). While my own approach is based in observations, I believe progress is often best made through collaboration of theory and observation.  
+								</p>
+							</div>
+							<div class="col-md-4 col-6 mx-auto">
+								<img src="img/emily.jpg" alt="..." class="img-thumbnail rounded mx-auto d-block">
+								<div class="text-center  pt-5 d-sm-none d-md-block">
+						      		<h6>Get in touch:</h6>
+						      		<h6> Emily.Wisnioski (at) anu.edu.au </h6>
+					      		</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="section container-fluid  text-justify" id="research">
+					<div class="container">
+						<h3 class="section-header"> RESEARCH INTERESTS</h3>
+						<div class="card-deck">
+							<div class="card bg-light text-dark">
+								<img src="img/magpi-white.png" alt="..." class="card-img-top" >
+								<a href="https://magpisurvey.org/" class="stretched-link"></a>
+								<div class="card-body">
+									<h4 class="card-title">MAGPI</h4>
+									<p class="card-text">MAGPI will provide an in-depth resolved view of galaxy evolution. The Middle Ages Galaxy Properties with Integral Field Spectroscopy (MAGPI) survey is a large program on the European Southern Observatory Very Large Telescope, using the Multi Unit Spectroscopic Explorer (MUSE) to obtain spatially-resolved spectroscopy of stars and ionised gas for galaxies in a range of environments 3-4 Gyrs ago. Our sample will amount to more than a hundred galaxies and will reveal the mechanisms responsible for the morpho-kinematic variety of today’s massive galaxies.</p>
+								</div>
+							</div>
+							<div class="card bg-light text-dark">
+								<a href="https://www.mpe.mpg.de/ir/KMOS3D"><img src="img/kmos3d.jpeg" alt="..." class="card-img-top" ></a>
+								<div class="card-body">
+									<h4 class="card-title">KMOS<sup>3D</sup></h4>
+									<p class="card-text">KMOS<sup>3D</sup> is a collaboration of 30 international astrophysicists that utilised 75 guaranteed nights on the 8-m class Very Large Telescopes using the only existing near-infrared multi- object spatially-resolved spectroscopy instrument. With the KMOS<sup>3D</sup> survey we have used statistics to investigate the stability, metallicity, angular momentum and mass budget of disk galaxies when the Universe was 3-8 Gyrs old. The unique multiplex capability of KMOS allows for a 20x increase in the efficiency in observing high-redshift galaxy kinematics making possible this 600+ galaxy survey.</p>
+								</div>
+							</div>
+						</div>
+						<hr class="col-xs-12">
+						<div class="container-fluid">
+							<h4> Potential Students </h4>
+							<p>If you would like to do a project in my group at undergraduate, honours, Masters or PhD level please email me. Sample project descriptions are available <a href="https://rsaa.anu.edu.au/study/potential-projects?theme=All&degree=All&supervisor=wisnioski">HERE</a>.</p>
+						</div>
+					</div>
+				</section>
+				<!-- Section template -->
+				<!-- What to change:
+					---- text to change is in CAPS ---
+					ID: needs a uniqe ID for this section for the navigation link
+					HEADER: the header for this section
+
+				 -->
+				<!-- <section class="section container-fluid" id="ID">
+					<h3 class="section-header"> HEADER </h3>
+					<div class="row">
+						SECTION CONTENT
+					</div>
+				</section> -->
+			</main>
+			<!-- End Main Column -->
+		</div>
+		<!-- End Content -->
+	</div>
+	</body>
+</html>
